@@ -10,7 +10,7 @@ Only the reference transcription and the models' textual outputs are needed. The
 
 the first parameter is the filename of the transcript. After that, a list of files can be given, which will be compared.
 
-**Important:** the script uses `sclite` and `sc_stat`, these files must be accesible, if you use Kaldi run `path.sh` befor this script.
+**Important:** the script uses `sclite` and `sc_stat`, these files must be accesible, if you use Kaldi run `path.sh` before this script.
 
 ## Output
 The script will produce several output files, which start with the prefix significance_report. The most important one is the **significance_report.stats.unified** that summarizes all the tests.
